@@ -1,19 +1,12 @@
-variable "sg_name" {
+variable "ami_id" {
     type = string
-    default = "web"
+    default = "ami-0b4f379183e5706b9"
 }
 
-variable "sg_description" {
+variable "instance_type" {
     type = string
-    default = "allow_all"
+    default = "t3.micro"
 }
 
-variable "inbound_from_port" {
-    # type = 0
-    default = 0
-}
 
-variable "cidr_blocks" {
-    type = list
-    default = ["0.0.0.0/0"]
-}
+ 
