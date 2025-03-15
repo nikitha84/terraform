@@ -6,7 +6,7 @@ variable "ami_id" {
 
 variable "instance_name" {
     type = string
-    default = "t2.micro"
+    default = "web"
 }
 
 variable "tags" {
